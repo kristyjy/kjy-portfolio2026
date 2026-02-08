@@ -1,3 +1,11 @@
+<script setup>
+  import IconCodepen from "./icons/IconCodepen.vue";
+  import IconEmail from "./icons/IconEmail.vue";
+  import IconGithub from "./icons/IconGithub.vue";
+  import IconHeart from "./icons/IconHeart.vue";
+  import IconLinkedIn from "./icons/IconLinkedIn.vue";
+</script>
+
 <template>
   <footer>
     <div class="container">
@@ -29,15 +37,6 @@
     </div>
   </footer>
 </template>
-
-<script setup>
-import IconCodepen from "./icons/IconCodepen.vue";
-import IconEmail from "./icons/IconEmail.vue";
-import IconGithub from "./icons/IconGithub.vue";
-import IconHeart from "./icons/IconHeart.vue";
-import IconLinkedIn from "./icons/IconLinkedIn.vue";
-</script>
-
 
 <style scoped>
 footer {

@@ -1,13 +1,13 @@
+<script setup>
+  import SkillChart from './SkillChart.vue'
+</script>
+
 <template>
   <section>
     <h2>My Skills</h2>
     <SkillChart />
   </section>
 </template>
-
-<script setup>
-  import SkillChart from './SkillChart.vue'
-</script>
 
 <style scoped>
 section {
