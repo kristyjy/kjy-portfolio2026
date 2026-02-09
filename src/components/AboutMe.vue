@@ -1,7 +1,7 @@
 <template>
   <section>
     <h2>About Me</h2>
-    <p>I am an experienced web developer specializing in front-end development. I build user-friendly, standards compliant web applications and websites. I'm well versed in cross-browser compatibility, front-end best practices, responsive design and performance optimization.</p>
+    <p>I'm a front-end web developer focused on creating intuitive, standards-compliant web experiences. My work emphasizes responsive design, cross-browser compatibility, performance optimization, and front-end best practices—always with the user in mind.</p>
     <div aria-hidden="true" class="circles"></div>
   </section>
 </template>
@@ -49,20 +49,20 @@ p {
   margin: 1rem auto;
   font-size: 1.4rem;
   text-align: center;
-  max-width: 25rem;
+  max-width: 30rem;
 }
 
 @media (min-width: 768px) {
   p {
     font-size: 1.6rem;
-    max-width: 30rem;
+    max-width: 37rem;
   }
 }
 
 @media (min-width: 1100px) {
   p {
     font-size: 1.8rem;
-    max-width: 45rem;
+    max-width: 50rem;
   }
 }
 
