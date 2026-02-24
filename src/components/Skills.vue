@@ -26,7 +26,7 @@ section:after {
   height: 0;
   border-style: solid;
   border-width: 30vh 0 0 100vw;
-  border-color: transparent transparent transparent var(--color1);
+  border-color: transparent transparent transparent #fff;
 }
 
 h2 {

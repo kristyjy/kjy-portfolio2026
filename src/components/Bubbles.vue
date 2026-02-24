@@ -25,6 +25,7 @@
   }
 
   function drawParticles() {
+    if (!canvas.value) return
     const c = canvas.value.getContext('2d')
     c.clearRect(0, 0, window.innerWidth, window.innerHeight)
     c.fillStyle = "transparent"
